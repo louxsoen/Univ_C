@@ -22,4 +22,4 @@ int main()
     printf("Lowercase letters: %d\n", lower); // 소문자 출력
 
     return 0; // 정상 종료
-} // 123
+} 
