@@ -10,5 +10,3 @@ int main()
     printf("%d\n", (a*b)%c);
     printf("%d\n", ((a%c) * (b%c))%c);
 }
-
-// 비쥬얼스튜디오 푸시 에러
