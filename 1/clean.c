@@ -2,7 +2,7 @@
 #pragma warning (disable:4996)
 #pragma warning (disable:6031)
 
-#define MAX_ARRAY   100
+#define MAX_ARRAY 100
 
 void DoPrintModula( int count, int* x, int*v, int* m )
 {   
@@ -70,11 +70,11 @@ void UpdateValue( int count, int* x, int*v, int* m )
 
 int main(void)
 {
-   int x[MAX_SIZE] = { 0 };
-   int value[MAX_SIZE] = { 0 };
-   int mod[MAX_SIZE] = { 0 };
-   int m[MAX_SIZE] = { 0 };
-   int y[MAX_SIZE] = { 0 };
+   int x[MAX_ARRAY] = { 0 };
+   int value[MAX_ARRAY] = { 0 };
+   int mod[MAX_ARRAY] = { 0 };
+   int m[MAX_ARRAY] = { 0 };
+   int y[MAX_ARRAY] = { 0 };
 
    int p = 0;
    int nCount = 0;
