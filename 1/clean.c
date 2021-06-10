@@ -129,4 +129,4 @@ int main(void)
 
    printf("x = %d (mod%d)", result % result_mod, result_mod);
    return 0;
-}
+} // 1
