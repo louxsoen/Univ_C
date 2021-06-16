@@ -89,7 +89,7 @@ int main(void)
    DoPrintModula( nCount, x, value, mod );
 
    for (int i = 0; i < nCount ; i++)
-   {
+   { 
       temp = 1;
       for (int z = 0; z < nCount; z++)
       {
