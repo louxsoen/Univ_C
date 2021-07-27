@@ -1,6 +1,5 @@
 from pwn import *
 
-print("Adf")
 r = process("./snd")
 
 for i in range(100):
