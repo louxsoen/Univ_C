@@ -7,10 +7,8 @@ void get_min_max(int *min, int *max, int *arr, int n)
 
     for (i = 1; i < n; i++)
     {
-        if (arr[i] < *min)
-            *min = arr[i];
-        if (arr[i] > *max)
-            *max = arr[i];
+        if (arr[i] < *min)      *min = arr[i];
+        if (arr[i] > *max)      *max = arr[i];
     }   
 }
 
