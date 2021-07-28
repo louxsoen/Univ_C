@@ -4,30 +4,27 @@ void hing(int n, int x, int y, int z)
 {
     if(n == 1)
     {
-        printf("%d %d\n", x, z);
+        printf("%d %d\n", x, z);        
         return;
     }
-    // A과정
-    //hing(n-1, x, z, y);
-    // B과정
-    //hing(1, x, y, z);
-    // C과정
-    hing(n-1, y, x, z);
+
+    // 문제가 있는 부분
+    hing(n-1, x, z, y); // A과정
+    hing(1, x, y, z); // B 과정
+    hing(n-1, y, x, z); // C 과정
     // 시작 경유 끝점
-    
-    
+    return;
 }
 
 int main()
 {
     int count = 2, count_s;
     int x = 1, y = 2, z = 3;
-    
-    scanf("%d", &count_s);
 
+    // count 도출 과정
+    scanf("%d", &count_s);
     for(int i = 1 ; i < count_s ; i++)      count *= 2;
-    count--;
-    
+    count--;    
     printf("%d\n", count);
 
     hing(count, x, y ,z);
