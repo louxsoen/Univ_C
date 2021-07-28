@@ -2,7 +2,20 @@
 
 void hing(int n, int x, int y, int z)
 {
-    printf("%d %d %d %d", n, x, y, z);
+    if(n == 1)
+    {
+        printf("%d %d\n", x, z);
+        return;
+    }
+    // A과정
+    //hing(n-1, x, z, y);
+    // B과정
+    //hing(1, x, y, z);
+    // C과정
+    hing(n-1, y, x, z);
+    // 시작 경유 끝점
+    
+    
 }
 
 int main()
@@ -21,6 +34,7 @@ int main()
     
     return 0;
 }
+
 
 
 /*
