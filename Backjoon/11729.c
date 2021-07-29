@@ -4,8 +4,7 @@ void hing(int n, int x, int y, int z)
 {
     if(n == 1)
     {
-        printf("%d %d\n", x, z);        
-        return;
+        printf("%d %d\n", x, z);        return;
     }
 
     // 문제가 있는 부분
@@ -23,11 +22,10 @@ int main()
 
     // count 도출 과정
     scanf("%d", &count_s);
-    for(int i = 1 ; i < count_s ; i++)      count *= 2;
-    count--;    
+    for(int i = 1 ; i < count_s ; i++)      count *= 2;         count--;    
     printf("%d\n", count);
 
-    hing(count, x, y ,z);
+    hing(count_s, x, y ,z);
     
     return 0;
 }
