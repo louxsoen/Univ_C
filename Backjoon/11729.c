@@ -20,7 +20,7 @@ int main()
     int count = 2, count_s;
     int x = 1, y = 2, z = 3;
 
-    // count 도출 과정
+    // cunt 도출 과정
     scanf("%d", &count_s);
     for(int i = 1 ; i < count_s ; i++)      count *= 2;         count--;    
     printf("%d\n", count);
